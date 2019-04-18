@@ -17,6 +17,8 @@ class Formulario extends Component{
             CantidadGasto:this.CantidadGasto.current.value
         }
 
+        this.props.AgregarGasto(gasto);
+
         e.currentTarget.reset();
     }
 
